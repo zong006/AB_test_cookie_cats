@@ -47,6 +47,7 @@ If both groups A and B have  normal distributions:
 - check if variances are homogeneous using Levene test. 
     - If both have homogeneous variances: use t-test
     - else, not homogeneous:  use Welch test
+    
 Else:
 - use Mann Whitney U test
 
@@ -58,6 +59,7 @@ To perform a test for retention rates 1 and 7 days after installation of the upd
 
 If expected cell frequencies of all cells >5:
 - use chi-squared test
+
 Else:
 - use Fisher's exact test
 
